@@ -1,4 +1,4 @@
-package com.project.airData.models;
+package com.AirData.M2ProjectBack.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

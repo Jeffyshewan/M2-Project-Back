@@ -1,4 +1,4 @@
-package com.project.airData.services;
+package com.AirData.M2ProjectBack.services;
 
 public interface flightService {
 }

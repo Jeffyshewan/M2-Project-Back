@@ -1,6 +1,6 @@
-package com.project.airData.services.impl;
+package com.AirData.M2ProjectBack.services.impl;
 
-import com.project.airData.services.flightService;
+import com.AirData.M2ProjectBack.services.flightService;
 
 public class flightServiceImpl implements flightService {
 }

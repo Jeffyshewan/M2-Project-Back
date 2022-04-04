@@ -1,6 +1,5 @@
-package com.project.airData.repositories;
+package com.AirData.M2ProjectBack.repositories;
 
-import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
