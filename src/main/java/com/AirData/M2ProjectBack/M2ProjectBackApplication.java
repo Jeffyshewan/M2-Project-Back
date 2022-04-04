@@ -1,13 +1,13 @@
-package com.project.airData;
+package com.AirData.M2ProjectBack;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AirDataApplication {
+public class M2ProjectBackApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AirDataApplication.class, args);
+		SpringApplication.run(M2ProjectBackApplication.class, args);
 	}
 
 }
