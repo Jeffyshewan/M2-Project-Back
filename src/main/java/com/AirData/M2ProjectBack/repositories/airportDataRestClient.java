@@ -9,7 +9,7 @@ public class airportDataRestClient {
 
     private void standardCall(String iata) throws java.io.IOException, InterruptedException {
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://airport-info.p.rapidapi.com/airport?icao="+ iata))
+                .uri(URI.create("https://airport-info.p.rapidapi.com/airport?icao=" + iata))
                 .header("x-rapidapi-host", "airport-info.p.rapidapi.com")
                 .header("x-rapidapi-key", "c4f23f0c7fmsh782b7e17ed92d8bp1e84c0jsn36a614383de3")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
