@@ -8,7 +8,7 @@ import org.springframework.data.annotation.Id;
 @Getter
 @Setter
 @AllArgsConstructor
-public class favoriteAirport {
+public class FavoriteAirport {
 
     @Id
     public Integer id;

@@ -3,12 +3,14 @@ package com.AirData.M2ProjectBack.models;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 import org.springframework.data.annotation.Id;
 
 @Getter
 @Setter
 @AllArgsConstructor
-public class airport {
+@ToString
+public class Airport {
 
     @Id
     public Integer id;

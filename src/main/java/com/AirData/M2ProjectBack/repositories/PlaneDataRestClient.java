@@ -1,4 +1,6 @@
 package com.AirData.M2ProjectBack.repositories;
 
-public class planeDataRestClient {
+public class PlaneDataRestClient {
+
+
 }

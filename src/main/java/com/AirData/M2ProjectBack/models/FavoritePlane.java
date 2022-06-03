@@ -8,16 +8,13 @@ import org.springframework.data.annotation.Id;
 @Getter
 @Setter
 @AllArgsConstructor
-public class plane {
+public class FavoritePlane {
 
     @Id
     public Integer id;
 
+    public String name;
     public String company;
     public String model;
-    public String name;
     public String icao;
-    public String registration;
-    public String latitute;
-    public String longitude;
 }

@@ -8,7 +8,7 @@ import org.springframework.data.annotation.Id;
 @Getter
 @Setter
 @AllArgsConstructor
-public class flight {
+public class Flight {
     @Id
     public Integer id;
 
@@ -20,4 +20,6 @@ public class flight {
     public String arrivalHour;
     public String arrivalAirport;
     public String arrivalUtc;
+
+
 }
