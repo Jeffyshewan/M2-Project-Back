@@ -2,6 +2,7 @@ package com.AirData.M2ProjectBack;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
 public class M2ProjectBackApplication {

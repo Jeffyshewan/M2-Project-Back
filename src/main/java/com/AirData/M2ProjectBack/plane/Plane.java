@@ -1,4 +1,4 @@
-package com.AirData.M2ProjectBack.models;
+package com.AirData.M2ProjectBack.plane;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,14 +8,16 @@ import org.springframework.data.annotation.Id;
 @Getter
 @Setter
 @AllArgsConstructor
-public class FavoriteAirport {
+public class Plane {
 
     @Id
     public Integer id;
 
+    public String company;
+    public String model;
     public String name;
-    public String iata;
     public String icao;
-    public String country;
-    public String country_iso;
+    public String registration;
+    public String latitute;
+    public String longitude;
 }

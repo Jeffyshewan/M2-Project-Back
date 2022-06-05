@@ -1,4 +1,6 @@
-package com.AirData.M2ProjectBack.repositories;
+package com.AirData.M2ProjectBack.flight;
+
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.net.URI;
@@ -6,8 +8,10 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class FlightDataRestClient {
+@Service
+public class FlightDataRestClientImpl implements FlightDataRestClient {
 
+    @Override
     public String getFlightFromNumber() throws IOException, InterruptedException {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://aerodatabox.p.rapidapi.com/flights/AF1294/delays"))

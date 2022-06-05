@@ -1,6 +1,4 @@
-package com.AirData.M2ProjectBack.services;
-
-import com.AirData.M2ProjectBack.models.Airport;
+package com.AirData.M2ProjectBack.airport;
 
 public interface AirportService {
 

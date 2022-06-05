@@ -1,17 +1,15 @@
-package com.AirData.M2ProjectBack.repositories;
+package com.AirData.M2ProjectBack.airport;
 
-import org.springframework.web.bind.annotation.PatchMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import com.AirData.M2ProjectBack.airport.AirportDataRestClient;
+import org.springframework.stereotype.Service;
 
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-@RequestMapping("/airports")
-public class AirportDataRestClient {
+@Service
+public class AirportDataRestClientImpl implements AirportDataRestClient {
 
     private String standardCall(String data, Boolean iata) throws java.io.IOException, InterruptedException {
         if (iata) {
@@ -35,7 +33,7 @@ public class AirportDataRestClient {
         }
     }
 
-    @RequestMapping("/iata/{iata}")
+    @Override
     public String getAirportDataWithIata(String iata) {
         String data = "";
         try {
@@ -46,8 +44,8 @@ public class AirportDataRestClient {
         return data;
     }
 
-    @RequestMapping("/icao/{icao}")
-    public String getAirportDataWithIcao(@PathVariable("icao") String icao) {
+    @Override
+    public String getAirportDataWithIcao(String icao) {
         String data = "";
         try {
             data = standardCall(icao, false);

@@ -1,8 +1,5 @@
-package com.AirData.M2ProjectBack.services.impl;
+package com.AirData.M2ProjectBack.airport;
 
-import com.AirData.M2ProjectBack.models.Airport;
-import com.AirData.M2ProjectBack.repositories.AirportDataRestClient;
-import com.AirData.M2ProjectBack.services.AirportService;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +10,7 @@ import javax.transaction.Transactional;
 @NoArgsConstructor
 public class AirportServiceImpl implements AirportService {
 
-    private AirportDataRestClient airportDataRestClient;
+    private AirportDataRestClientImpl airportDataRestClient;
 
     @Override
     public String getAirportWithIata(String iata) {
