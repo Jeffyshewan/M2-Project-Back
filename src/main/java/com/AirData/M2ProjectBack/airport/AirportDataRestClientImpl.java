@@ -1,6 +1,5 @@
 package com.AirData.M2ProjectBack.airport;
 
-import com.AirData.M2ProjectBack.airport.AirportDataRestClient;
 import org.springframework.stereotype.Service;
 
 import java.net.URI;

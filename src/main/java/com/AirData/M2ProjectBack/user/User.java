@@ -1,12 +1,12 @@
 package com.AirData.M2ProjectBack.user;
 
+import com.AirData.M2ProjectBack.role.Role;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import java.util.List;
 
 @Getter
 @Setter
@@ -14,10 +14,10 @@ import javax.persistence.GenerationType;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer id;
 
     public String username;
     public String email;
     public String password;
+    public List<String> roles;
 }
