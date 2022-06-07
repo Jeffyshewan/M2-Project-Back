@@ -4,5 +4,5 @@ public interface RoleService {
 
     Role findById(Integer id);
 
-    void create
+    void create(Role role);
 }
