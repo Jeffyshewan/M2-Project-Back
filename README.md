@@ -16,3 +16,8 @@ almost finished UML schemes for the database
 ## La base de donnée :
 
 - La base de donnée est hébergée sur le cluster Heroku lié au projet
+
+
+## Le diagramme UML : 
+
+- Le diagramme UML se trouve dans le répertoire UML à la base de ce projet.
