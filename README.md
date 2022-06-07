@@ -4,3 +4,15 @@
 
 15/03 :
 almost finished UML schemes for the database
+
+
+05/06 : authentification finished
+
+## Installation : 
+
+- une JDK 11 ou supérieure est nécessaire
+- une installation des module sera nécessaire à l'aide de Maven
+
+## La base de donnée :
+
+- La base de donnée est hébergée sur le cluster Heroku lié au projet
