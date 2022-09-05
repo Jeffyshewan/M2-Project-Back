@@ -21,3 +21,6 @@ almost finished UML schemes for the database
 ## Le diagramme UML : 
 
 - Le diagramme UML se trouve dans le répertoire UML à la base de ce projet.
+
+05/09 : new API
+- API for airlines informations : https://rapidapi.com/apininjas/api/airlines-by-api-ninjas/
